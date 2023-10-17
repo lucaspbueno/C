@@ -1,4 +1,4 @@
-// Declaração e tipos de variáveis
+// Declaraï¿½ï¿½o e tipos de variï¿½veis
 using System;
 
 class Aula03
@@ -7,29 +7,29 @@ class Aula03
     {
         // Primeiro o tipo depois o nome
 
-        //Posso declarar multiplas variáveis na mesma linha
+        //Posso declarar multiplas variï¿½veis na mesma linha
         int n1 = 1, n2;
         n2 = 2;
 
-        // Pode declarar uma variável sem atribuir valor a ela 
+        // Pode declarar uma variï¿½vel sem atribuir valor a ela 
         int num;
         num = 0;
-        // Declarando uma variável atribuindo valor a ela 
+        // Declarando uma variï¿½vel atribuindo valor a ela 
         int age = 18; //Inteiro, pode receber valores negativos e positivos
-        byte n3 = 1;  //Só numeros positivos, não aceita sinais, vai de 0 a 255
-        float valor = 5.3f; //Números com vírgula, usa-se o f no final para indicar que é um float
+        byte n3 = 1;  //Sï¿½ numeros positivos, nï¿½o aceita sinais, vai de 0 a 255
+        float valor = 5.3f; //Nï¿½meros com vï¿½rgula, usa-se o f no final para indicar que ï¿½ um float
         char letra = 'A'; //Caracter, usa aspas simples, pode armazenar apenas 1 caracter
         string nome = "lucas"; //Conjunto de caracteres, utiliza as aspas duplas
 
 
-        var aux = 10; //Quando uso o operador var estou dizendo que não estou especificando o tipo da variável
-                      //em sua declaração, ela recebe um tipo apenas no ato de atribuição e não na declaração.
+        var aux = 10; //Quando uso o operador var estou dizendo que nï¿½o estou especificando o tipo da variï¿½vel
+                      //em sua declaraï¿½ï¿½o, ela recebe um tipo apenas no ato de atribuiï¿½ï¿½o e nï¿½o na declaraï¿½ï¿½o.
 
-        //Não é aconselhavel mudar o tipo da variável var posteriormente, uma vez atribuído tipo a ela, ela deve
+        //Nï¿½o ï¿½ aconselhavel mudar o tipo da variï¿½vel var posteriormente, uma vez atribuï¿½do tipo a ela, ela deve
         //permanecer com esse tipo
 
         var test = nome;
-        //Teste no processo de compilação, será do tipo string, com o valor da vaiável nome, no caso Lucas
+        //Teste no processo de compilaï¿½ï¿½o, serï¿½ do tipo string, com o valor da vaiï¿½vel nome, no caso Lucas
         Console.WriteLine(n1);
         Console.WriteLine(n2);
         Console.WriteLine(num);
@@ -38,6 +38,7 @@ class Aula03
         Console.WriteLine(valor);
         Console.WriteLine(letra);
         Console.WriteLine(nome);
+        Console.WriteLine(test);
         Console.WriteLine(aux);
 
     }
